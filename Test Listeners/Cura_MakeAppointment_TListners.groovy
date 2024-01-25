@@ -27,21 +27,21 @@ class Cura_MakeAppointment_TListners {
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	@BeforeTestCase
-	//def sampleBeforeTestCase() {
-	//	WebUI.openBrowser('')
+	@BeforeTestSuite
+	def sampleBeforeTestCase() {
+		WebUI.openBrowser('')
 		
-	//	WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+		WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 		
-	//	WebUI.maximizeWindow()
+		WebUI.maximizeWindow()
 	}
 
 	/**
 	 * Executes after every test case ends.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	@AfterTestCase
+	@AfterTestSuite
 	def sampleAfterTestCase() {
-		//WebUI.closeBrowser()
+		WebUI.closeBrowser()
 	}
 }
