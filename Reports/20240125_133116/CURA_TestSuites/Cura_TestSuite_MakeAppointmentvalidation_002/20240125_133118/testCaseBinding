@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/TC_CURA_Login_001","testCaseId":"Test Cases/TC_CURA_Login_001","iterationVariableName":"","bindedValues":{"input_username":"\u0027John Doe\u0027","input_password":"\u0027ThisIsNotAPassword\u0027"}}
+{"testCaseName":"Test Cases/TC_CURA_MakeAppointmentvalidation_002","testCaseId":"Test Cases/TC_CURA_MakeAppointmentvalidation_002","iterationVariableName":""}
