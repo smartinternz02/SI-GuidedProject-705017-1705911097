@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cura_TestSuite_Login_001" time="11.127" tests="1" failures="0" errors="0">
+   <testsuite name="Cura_TestSuite_Login_001" tests="1" failures="0" errors="0" time="11.127" skipped="0" timestamp="26-01-2024T17:04:05" hostname="prasu - prasamsa" id="Test Suites/CURA_TestSuites/Cura_TestSuite_Login_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\prasu\\git\\SI-GuidedProject-705017-1705911097\\Reports\\20240126_170353\\CURA_TestSuites\\Cura_TestSuite_Login_001\\20240126_170354"/>
+         <property name="logFiles" value="C:\\Users\\prasu\\git\\SI-GuidedProject-705017-1705911097\\Reports\\20240126_170353\\CURA_TestSuites\\Cura_TestSuite_Login_001\\20240126_170354\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="prasu - prasamsa"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.104"/>
+         <property name="sessionId" value="c3f7e13160e956ac443e569de3a3d82e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_CURA_Login_001" time="4.709" classname="Test Cases/TC_CURA_Login_001" status="PASSED">
+         <system-out><![CDATA[26-01-2024T17:04:11 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_Login_001: Test Cases/TC_CURA_Login_001
+
+26-01-2024T17:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+26-01-2024T17:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+26-01-2024T17:04:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura Pages/CuraPage_Login_OR/input_username"), input_username): Text 'John Doe' is set on object 'Object Repository/Cura Pages/CuraPage_Login_OR/input_username'
+
+26-01-2024T17:04:14 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Cura Pages/CuraPage_Login_OR/input_username'
+
+26-01-2024T17:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Cura Pages/CuraPage_Login_OR/input_password"), input_password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura Pages/CuraPage_Login_OR/input_password'
+
+26-01-2024T17:04:15 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura Pages/CuraPage_Login_OR/input_password'
+
+26-01-2024T17:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cura Pages/CuraPage_Login_OR/button_Login")): Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/button_Login' is clicked on
+
+26-01-2024T17:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura Pages/CuraPage_Login_OR/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T17:04:05 - [TEST_SUITE][PASSED] - Cura_TestSuite_Login_001: Test Cases/TC_CURA_Login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

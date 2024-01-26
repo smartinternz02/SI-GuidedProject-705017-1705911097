@@ -24,7 +24,7 @@ import com.kms.katalon.core.context.TestSuiteContext
 
 class Cura_MakeAppointment_TListners {
 	/**
-	 * Executes before every test case starts.
+	 * Executes before every test suite starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestSuite
@@ -37,7 +37,7 @@ class Cura_MakeAppointment_TListners {
 	}
 
 	/**
-	 * Executes after every test case ends.
+	 * Executes after every test suite ends.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@AfterTestSuite

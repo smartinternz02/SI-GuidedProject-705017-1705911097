@@ -17,6 +17,96 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Make Appointment'))
+
+WebUI.setText(findTestObject('Object Repository/Cura Pages/CuraPage_Login_OR/input_username'), input_username)
+
+WebUI.setText(findTestObject('Object Repository/Cura Pages/CuraPage_Login_OR/input_password'), input_password)
+
+WebUI.click(findTestObject('Object Repository/Cura Pages/CuraPage_Login_OR/button_Login'))
+
+'Validates  "facility" dropdown button and verify if "Hongkong CURA health care center" available in the option or not'
+WebUI.verifyOptionPresentByLabel(findTestObject('Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+    'Hongkong CURA Healthcare Center', false, 0)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+    'Hongkong CURA Healthcare Center', true)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/input_hospital_readmission'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_hospital_readmission'))
+
+WebUI.delay(2)
+
+'Verifies whether "medicaid" checkbox option is disabled before you click on the checkbox'
+unchecked = WebUI.verifyElementNotChecked(findTestObject('Page_CURA Healthcare Service/input_programs'), 0)
+
+WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Medicaid_programs'))
+
+'Loop to check the medicaid radio button'
+if (unchecked == 'true') {
+    System.out.println('element not checked')
+
+    'Checks the medicaid button'
+    WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Medicaid_programs'))
+
+    System.out.println('element checked')
+}
+
+WebUI.delay(3)
+
+'verifies whether the test object is checked of or not'
+WebUI.verifyElementChecked(findTestObject('Page_CURA Healthcare Service/input_Medicaid_programs'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_17'))
+
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_comment'), 'Katalon')
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+
+'Validates  "facility" dropdown button and verify if "Hongkong CURA health care center" available in the option or not'
+WebUI.verifyOptionPresentByLabel(findTestObject('Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+    'Hongkong CURA Healthcare Center', false, 0)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+    'Hongkong CURA Healthcare Center', true)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/input_hospital_readmission'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_hospital_readmission'))
+
+WebUI.delay(2)
+
+'Verifies whether "medicaid" checkbox option is disabled before you click on the checkbox'
+unchecked = WebUI.verifyElementNotChecked(findTestObject('Page_CURA Healthcare Service/input_programs'), 0)
+
+WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Medicaid_programs'))
+
+'Loop to check the medicaid radio button'
+if (unchecked == 'true') {
+    System.out.println('element not checked')
+
+    'Checks the medicaid button'
+    WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Medicaid_programs'))
+
+    System.out.println('element checked')
+}
+
+WebUI.delay(3)
+
+'verifies whether the test object is checked of or not'
+WebUI.verifyElementChecked(findTestObject('Page_CURA Healthcare Service/input_Medicaid_programs'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_17'))
+
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_comment'), 'Katalon')
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/amenu-toggle'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_History'))

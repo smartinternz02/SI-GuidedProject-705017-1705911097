@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuite_Login_001,Chrome 121.0.0.0,,,26-01-2024 17:04:05,26-01-2024 17:04:16,11.127s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_Login_001,Chrome 121.0.0.0,,,26-01-2024 17:04:11,26-01-2024 17:04:16,4.709s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 121.0.0.0,,,26-01-2024 17:04:12,26-01-2024 17:04:13,1.622s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/input_username""), input_username)",Chrome 121.0.0.0,,,26-01-2024 17:04:13,26-01-2024 17:04:14,0.902s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/input_password""), input_password)",Chrome 121.0.0.0,,,26-01-2024 17:04:14,26-01-2024 17:04:15,0.885s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/button_Login""))",Chrome 121.0.0.0,,,26-01-2024 17:04:15,26-01-2024 17:04:16,1.191s,PASSED
