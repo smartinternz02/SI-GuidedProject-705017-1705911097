@@ -4,7 +4,7 @@
    <name>Cura_TestSuite_MakeAppointmentvalidation_002</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>smtpautomsg@gmail.com;</mailRecipient>
+   <mailRecipient>smtpautomsg@gmail.com;prasamsaneerukonda@gmail.com;;</mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
