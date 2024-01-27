@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>c5027e13-4eda-4f32-abdc-a158b5397bd4</dataFileGUID>
-   <dataSourceUrl>../../Desktop/katalon/SAT_TEST  CASE TEMPLATE.xlsx</dataSourceUrl>
+   <dataSourceUrl>../../Desktop/katalon/Documents/SAT_TEST  CASE TEMPLATE.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <properties>
