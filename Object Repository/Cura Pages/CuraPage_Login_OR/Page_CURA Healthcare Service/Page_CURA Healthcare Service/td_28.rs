@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
@@ -66,72 +65,3 @@
       <webElementGuid>03e90952-c023-4483-b0fc-da8d0ddb3ed5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<WebElementEntity>
-   <description></description>
-   <name>td_28</name>
-   <tag></tag>
-   <elementGuidId>d3b0ecf6-b54d-4311-a384-13e4d83ffc28</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>tr:nth-of-type(5) > td.day</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//tr[5]/td</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>td</value>
-      <webElementGuid>28b0ce52-a930-4e22-90b4-4ba131ba4096</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>day</value>
-      <webElementGuid>90868ba4-d8dc-46e1-ad72-7724458510a0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>28</value>
-      <webElementGuid>5024f577-9fce-4a67-a14f-56a858746f36</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[5]/td[@class=&quot;day&quot;]</value>
-      <webElementGuid>8daa35e4-064c-4641-930c-73718a8c1113</webElementGuid>
-   </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tr[5]/td</value>
-      <webElementGuid>62a169a5-5fab-4d0e-b4a5-09cf87005eae</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//td[(text() = '28' or . = '28')]</value>
-      <webElementGuid>03e90952-c023-4483-b0fc-da8d0ddb3ed5</webElementGuid>
-   </webElementXpaths>
-</WebElementEntity>
->>>>>>> fba715db51cf71397daab2d52062176ea6814133

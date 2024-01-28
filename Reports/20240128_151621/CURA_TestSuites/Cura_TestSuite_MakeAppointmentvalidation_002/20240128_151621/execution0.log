@@ -5348,4 +5348,43 @@ Caused by: java.lang.IllegalArgumentException: Object is null
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log><record>
+  <date>2024-01-28T11:12:04.348102300Z</date>
+  <millis>1706440324348</millis>
+  <nanos>102300</nanos>
+  <sequence>1354</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1106</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Test Data/Cura_Login_Test Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-28T11:12:04.353119400Z</date>
+  <millis>1706440324353</millis>
+  <nanos>119400</nanos>
+  <sequence>1355</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1106</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-01-28T11:12:04.353119400Z</date>
+  <millis>1706440324353</millis>
+  <nanos>119400</nanos>
+  <sequence>1356</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1106</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\prasu\Desktop\katalon\Documents\SAT_TEST  CASE TEMPLATE.xlsx&amp;apos; and sheet name &amp;apos;Table-2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
 </log>

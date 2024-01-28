@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
@@ -58,64 +57,3 @@
       <webElementGuid>d9a05d32-3fed-4606-b8c6-83f4fd5fc02a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<WebElementEntity>
-   <description></description>
-   <name>i_fa fa-bars</name>
-   <tag></tag>
-   <elementGuidId>d9c0fc2a-52c4-439e-98aa-a36d10f60810</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>i.fa.fa-bars</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu-toggle']/i</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>i</value>
-      <webElementGuid>1453ab68-e9dd-480a-b466-ebbb9027e689</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>fa fa-bars</value>
-      <webElementGuid>c1e41d63-522c-4da3-b0db-746e40bbdfc7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;menu-toggle&quot;)/i[@class=&quot;fa fa-bars&quot;]</value>
-      <webElementGuid>02b4d52b-b269-4133-8e54-cf2843fb3191</webElementGuid>
-   </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//a[@id='menu-toggle']/i</value>
-      <webElementGuid>ac37e2aa-4fe6-453f-a4fc-086890b614b2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//i</value>
-      <webElementGuid>d9a05d32-3fed-4606-b8c6-83f4fd5fc02a</webElementGuid>
-   </webElementXpaths>
-</WebElementEntity>
->>>>>>> fba715db51cf71397daab2d52062176ea6814133
