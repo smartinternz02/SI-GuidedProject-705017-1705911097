@@ -21,10 +21,10 @@ import org.openqa.selenium.Keys as Keys
 WebUI.verifyOptionPresentByLabel(findTestObject('Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
     'Hongkong CURA Healthcare Center', false, 0)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+WebUI.selectOptionByValue(findTestObject('Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
     'Hongkong CURA Healthcare Center', true)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/input_hospital_readmission'))
+WebUI.verifyElementClickable(findTestObject('Page_CURA Healthcare Service/input_hospital_readmission'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_hospital_readmission'))
 
