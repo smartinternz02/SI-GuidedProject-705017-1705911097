@@ -4,7 +4,7 @@
    <name>Cura_TestSuite_MakeAppointmentvalidation_002</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>smtpautomsg@gmail.com;prasamsaneerukonda@gmail.com;;</mailRecipient>
+   <mailRecipient>smtpautomsg@gmail.com;</mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -53,6 +53,13 @@
          </iterationEntity>
          <testDataId>Data Files/Test Data/Cura_Login_Test Data</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b048eebb-b4dc-4c08-a931-7ec7e6cb898b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/History validation__005</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
