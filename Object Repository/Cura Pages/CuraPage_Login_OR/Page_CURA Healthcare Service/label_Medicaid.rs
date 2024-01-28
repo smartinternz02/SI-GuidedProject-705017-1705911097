@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
@@ -71,11 +72,93 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Medicaid</name>
+   <tag></tag>
+   <elementGuidId>cc0b1c1b-42a3-438e-9c2b-cf3fd67c045b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appointment']/div/div/form/div[3]/div/label[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c9c1db6a-2ed0-4175-b340-86fb96d47d02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>radio-inline</value>
+      <webElementGuid>5bb4d495-9b0d-4370-9854-8c866ef4e2d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                             Medicaid
+                        </value>
+      <webElementGuid>2d58abb8-eb6b-4152-8fa7-8e77e4ea44f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-4&quot;]/label[@class=&quot;radio-inline&quot;]</value>
+      <webElementGuid>02745aef-7db9-4dfe-9d28-d52fc2dca105</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='appointment']/div/div/form/div[3]/div/label[2]</value>
+      <webElementGuid>76edcd41-d0bd-47ba-96f0-807b3be812fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]</value>
+      <webElementGuid>e509d6f7-c82f-41d6-a711-5ac7648d9ca3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+>>>>>>> fba715db51cf71397daab2d52062176ea6814133
       <value>//label[(text() = '
                              Medicaid
                         ' or . = '
                              Medicaid
+<<<<<<< HEAD
                         ')]</value>
       <webElementGuid>b97253bd-a86c-4f5b-accd-7da8ddc18d66</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
+=======
+                        ')]</value>
+      <webElementGuid>b97253bd-a86c-4f5b-accd-7da8ddc18d66</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
+>>>>>>> fba715db51cf71397daab2d52062176ea6814133
