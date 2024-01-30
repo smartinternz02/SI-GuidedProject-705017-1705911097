@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/p_Tokyo CURA Healthcare Center",
+      "brokenLocator": "//p[@id\u003d\u0027facility\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/p_Tokyo CURA Healthcare Center_position.png"
+    }
+  ]
+}

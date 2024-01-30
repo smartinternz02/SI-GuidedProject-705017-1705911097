@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuite_MakeAppointmentvalidation_002,Chrome 121.0.0.0,,,30-01-2024 12:22:11,30-01-2024 12:22:41,30.045s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_Login_001,Chrome 121.0.0.0,,,30-01-2024 12:22:19,30-01-2024 12:22:24,4.717s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 121.0.0.0,,,30-01-2024 12:22:19,30-01-2024 12:22:20,1.169s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/input_username""), input_username)",Chrome 121.0.0.0,,,30-01-2024 12:22:20,30-01-2024 12:22:21,0.989s,PASSED
+"setText(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/input_password""), input_password)",Chrome 121.0.0.0,,,30-01-2024 12:22:21,30-01-2024 12:22:22,0.961s,PASSED
+"click(findTestObject(""Object Repository/Cura Pages/CuraPage_Login_OR/button_Login""))",Chrome 121.0.0.0,,,30-01-2024 12:22:22,30-01-2024 12:22:24,1.291s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_MakeAppointmentvalidation_002,Chrome 121.0.0.0,,,30-01-2024 12:22:24,30-01-2024 12:22:36,12.648s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", false, 0)",Chrome 121.0.0.0,"Validates  ""facility"" dropdown button and verify if ""Hongkong CURA health care center"" available in the option or not",,30-01-2024 12:22:24,30-01-2024 12:22:25,0.828s,PASSED
+"selectOptionByValue(findTestObject(""Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 121.0.0.0,,,30-01-2024 12:22:25,30-01-2024 12:22:26,1.191s,PASSED
+"verifyElementClickable(findTestObject(""Page_CURA Healthcare Service/input_hospital_readmission""))",Chrome 121.0.0.0,,,30-01-2024 12:22:26,30-01-2024 12:22:26,0.403s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_hospital_readmission""))",Chrome 121.0.0.0,,,30-01-2024 12:22:26,30-01-2024 12:22:27,0.469s,PASSED
+delay(2),Chrome 121.0.0.0,,,30-01-2024 12:22:27,30-01-2024 12:22:29,2.050s,PASSED
+"unchecked = verifyElementNotChecked(findTestObject(""Page_CURA Healthcare Service/input_programs""), 0)",Chrome 121.0.0.0,"Verifies whether ""medicaid"" checkbox option is disabled before you click on the checkbox",,30-01-2024 12:22:29,30-01-2024 12:22:29,0.391s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 121.0.0.0,,,30-01-2024 12:22:29,30-01-2024 12:22:30,0.412s,PASSED
+"if (unchecked == ""true"")",Chrome 121.0.0.0,Loop to check the medicaid radio button,,30-01-2024 12:22:30,30-01-2024 12:22:30,0.003s,PASSED
+delay(3),Chrome 121.0.0.0,,,30-01-2024 12:22:30,30-01-2024 12:22:33,3.014s,PASSED
+"verifyElementChecked(findTestObject(""Page_CURA Healthcare Service/input_Medicaid_programs""), 0)",Chrome 121.0.0.0,verifies whether the test object is checked of or not,,30-01-2024 12:22:33,30-01-2024 12:22:33,0.407s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 121.0.0.0,,,30-01-2024 12:22:33,30-01-2024 12:22:33,0.417s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_17""))",Chrome 121.0.0.0,,,30-01-2024 12:22:33,30-01-2024 12:22:34,0.529s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_comment""), ""Katalon"")",Chrome 121.0.0.0,,,30-01-2024 12:22:34,30-01-2024 12:22:35,1.019s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 121.0.0.0,,,30-01-2024 12:22:35,30-01-2024 12:22:36,1.305s,PASSED
+,,,,,,,
+Test Cases/History validation__005,Chrome 121.0.0.0,,,30-01-2024 12:22:36,30-01-2024 12:22:38,1.937s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 121.0.0.0,,,30-01-2024 12:22:36,30-01-2024 12:22:37,0.448s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_History""))",Chrome 121.0.0.0,,,30-01-2024 12:22:37,30-01-2024 12:22:38,0.983s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center""))",Chrome 121.0.0.0,,,30-01-2024 12:22:38,30-01-2024 12:22:38,0.413s,PASSED
+,,,,,,,
+Test Cases/TC_cura logout__003,Chrome 121.0.0.0,,,30-01-2024 12:22:38,30-01-2024 12:22:41,3.141s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 121.0.0.0,,,30-01-2024 12:22:38,30-01-2024 12:22:39,0.444s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""))",Chrome 121.0.0.0,,,30-01-2024 12:22:39,30-01-2024 12:22:39,0.485s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""))",Chrome 121.0.0.0,,,30-01-2024 12:22:39,30-01-2024 12:22:40,1.199s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 121.0.0.0,,,30-01-2024 12:22:40,30-01-2024 12:22:41,0.424s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,30-01-2024 12:22:41,30-01-2024 12:22:41,0.492s,PASSED
