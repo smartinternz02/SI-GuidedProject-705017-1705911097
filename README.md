@@ -9,7 +9,7 @@ Documents:
         Social and business impact.pdf
         Specify business problem.pdf
 Presentation video:
-        Presentaton video.mp4
+        https://drive.google.com/file/d/17pQ7oSxdTGUVwF5E2H7VYRhbjOhIJdex/view?usp=sharing
 Project:
         Checkpoints/checkpoint_excel_001
         Data Files/Test Data
